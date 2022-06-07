@@ -2,16 +2,29 @@
 // 1. Declareer een variabele en sla daar een array met vier jaartallen (zoals 2021) in op. Log dit in de terminal.
 // ==========================================
 
+const year = ["2001", "2002", "2003", "2004"];
+
+console.log(year);
+
+
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies (zoals muziek luisteren en koekjes eten) in op. Log dit in de terminal.
 // ==========================================
 
+const hobby = ["Schilderen", "Producing", "Djing"];
+
+console.log(hobby);
 
 // ==========================================
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
 // 3b. Zorg er nu voor dat je de eerste waarde uit die array in de terminal logt             // geeft 3
 // ==========================================
+
+const number = [3,4,5,7,2];
+
+console.log(number[0]);
+
 
 
 // ==========================================
@@ -20,6 +33,22 @@
 // 4b. Zorg ervoor dat je de vijfde waarde uit bovenstaande array in de terminal logt       // geeft blauw
 // 4c. Zorg ervoor dat je de tweede waarde uit bovenstaande array in de terminal logt       // geeft geel
 // ==========================================
+
+const color = ["Groen", "Geel", "Rood", "Paars", "Blauw", "Oranje"];
+
+console.log(color[4]);
+console.log(color[1]);
+
+color[4] = "Purpel";
+
+console.log(color[4]);
+
+console.log(color.length);
+
+
+
+
+
 
 
 // ==========================================
